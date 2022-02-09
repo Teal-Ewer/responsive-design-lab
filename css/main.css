@@ -107,7 +107,6 @@ h3 {
 	.container {
 		width: 600px;
 		text-align: left;
-		padding-top: 5px;
 		display: grid;
 		grid-template-columns: 40% 60%;
 		grid-template-rows: auto auto auto auto;
@@ -121,17 +120,17 @@ h3 {
 	.status {
 		grid-area: status;
 		text-align: left;
+		margin-top: 0;
 	}
 
 	#name {
 		grid-area: name;
 		height: 100%;
 		margin: 0;
-		padding-top: 5px;
 	}
 
 	.rating {
-		margin: 15px 0;
+		margin: 0 0 15px 0;
 	}
 
 	img {
@@ -148,6 +147,10 @@ h3 {
 		display: inherit;
 		border-left: 2px solid black;
 		padding-left: 10px;
+	}
+
+	p {
+		line-height: 3rem;
 	}
 
 	.pricing > h2,
