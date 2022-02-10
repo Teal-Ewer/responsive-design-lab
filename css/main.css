@@ -97,10 +97,12 @@ h3 {
 
 .phone {
 	background: #dee2e6;
+	cursor: pointer;
 }
 
 .message {
 	background: #ced4da;
+	cursor: pointer;
 }
 
 @media only screen and (min-width: 550px) {
